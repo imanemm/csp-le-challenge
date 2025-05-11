@@ -1,0 +1,34 @@
+
+GUIDE DE STYLES – CSP Le Challenge
+==================================
+
+🔎 Aspect général
+-----------------
+Le site de CSP Le Challenge doit transmettre une image moderne, dynamique et professionnelle. Il se distinguera par une interface épurée, des animations subtiles (comme les éléments qui apparaissent au défilement), ainsi qu’un slider d’images en page d’accueil. L’objectif est de refléter l’énergie de notre établissement tout en conservant une navigation claire et intuitive.
+
+🎨 Palette de couleurs
+----------------------
+- Platinum (#F2F2F2) : Arrière-plan de toutes les pages, sections principales, formulaire de contact
+- Muted Cadet Blue (#89AEB5) : Titres, encadrés, hover sur les boutons, cartes info, bordures
+- Charcoal Jet (#2F2D33) : Paragraphes, titres, menus, texte de formulaire
+- Leafy Green (#4BAF4F) : Pied de page, icônes de validation, liens secondaires, badges
+- Crimson Brick (#A33838) : Barre de navigation, boutons primaires, survols, CTA (call-to-action), titres d’alertes
+
+🖼 Iconographie
+---------------
+Les icônes utilisées seront de style plat (flat design) pour conserver une esthétique moderne.
+Elles devront être choisies en fonction de leur clarté, leur pertinence fonctionnelle et leur cohérence avec l’ensemble du site.
+
+✍️ Typographie
+--------------
+Police utilisée : Roboto (Google Fonts) – lisible, professionnelle et moderne.
+
+🔗 Liens
+--------
+- Pas de soulignement par défaut.
+- Animation avec soulignement au survol pour signaler l’interactivité.
+
+🔘 Boutons
+----------
+- Style plat avec les couleurs de la palette.
+- Effet de grossissement au survol (hover scale-up).

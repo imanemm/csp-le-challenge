@@ -1,0 +1,62 @@
+Informations de base 
+====================
+Nom de l’école : CSP Le Challenge 
+Numéro de téléphone : 98850400
+Numéro de télécopieur : 99777797
+WhatsApp : +223 83534916
+Adresse : Aéroport collée à la clinique Djoliba
+Facebook: https://www.facebook.com/profile.php?id=61568256483342
+
+Sites d’inspirations
+====================
+https://st-alex.ca
+https://www.collegestjoseph.ca
+https://collegenf.ca/#menu
+https://montee.cssd.gouv.qc.ca 
+
+1. Accueil  
+   - Introduction
+   - Curriculum
+   - Slider d’images
+   - CTA vers les admissions
+
+2. Actualités  
+   - Nouvelles de l’école
+   - Blogue ou annonces importantes
+
+3. Admissions  
+   - Processus d’inscription
+   - Formulaires
+   - Frais de scolarité
+
+4. Programme  
+   - Niveaux scolaires
+   - Spécificités par cycle
+   - Parcours pédagogique
+
+5. Vie scolaire et Info-Parents  
+   - Événements et activités
+   - Infos pratiques pour les parents
+   - Services aux élèves
+
+6. Nos innovations  
+   - Projets technologiques
+   - Approches pédagogiques modernes
+   - Partenariats
+
+7. FAQ
+
+8. Nous joindre  
+   - Coordonnées
+   - Carte interactive
+   - Formulaire de contact
+
+
+Vision de l’école 
+===================
+-	Informatique dès le CE1
+-	Coran et étude islamique
+-	Anglais à tous les niveaux
+-	Classes intelligentes pour un apprentissage rapide
+-	Sécurité renforcée avec caméras de surveillance
+-	Initiation au jardinage
