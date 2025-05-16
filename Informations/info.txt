@@ -1,0 +1,99 @@
+Informations de base 
+====================
+Nom de l’école : CSP Le Challenge 
+Numéro de téléphone : 98850400
+Numéro de télécopieur : 99777797
+WhatsApp : +223 83534916
+Adresse : Aéroport collée à la clinique Djoliba
+Facebook: https://www.facebook.com/profile.php?id=61568256483342
+Email : csplechallenge@gmail.com
+
+Sites d’inspirations
+====================
+https://st-alex.ca
+https://www.collegestjoseph.ca
+https://collegenf.ca/#menu
+https://montee.cssd.gouv.qc.ca 
+https://sn.ecolesmaarif.org/
+https://www.ecolefrancosenegalaise.org/
+
+
+1. Accueil 
+   - Slider d’images avec photos d'élèves, de l'établissement et d'activités
+   - Introduction brève de l'école
+   - Résumé du curriculum en 2-3 phrases avec button "En savoir plus"
+   - Call-to-action (CTA) clair : "Inscrivez-vous maintenant", "Visiter l'école", etc.
+
+Design : 
+   - Visuel fort dès le début (hero banner animé)
+   - Boutons visibles et animés
+   - Section "Pourquoi CSP Le Challenge ?" avec icones claires.
+
+2. Établissement
+   - Mission et vision clairement présentées
+   - Histoire de l'école (avec ligne du temps ou frise animée)
+   - Section Annonces importantes 
+
+3. Info-Parents
+   - Actualités / calendrier
+   - Frais de scolarité (tableau clair avec options)
+   - Horaire type d'une journée
+   - Infos sur les uniformes (photos, founisseurs, etc.)
+
+Design : Onglets pour séparer l'Informations
+         Téléchargement facile de PDF ou document utiles
+
+4. Pédagogie
+   - Présentation des niveaux scolaires (Spécificités par cycle)
+      - Jardin d'enfants
+      - Primaire
+      - Collège
+      - Lycée
+   - Détail de l'approche pédagogique (techno, bilinguisme, Coran)
+
+Design : 
+   - Illustration par cycle (icones, couleurs)
+   - Tableau comparatif ou timeline pédagogique
+
+5. Vie-scolaire
+   - Événements annuels
+   - Clubs et activités parascolaires
+   - Services aux élèves : cantine, tutorat.
+
+6. Inscription
+   - Processus d’inscription
+   - Formulaires PDF
+   - Détail sur le test d'admission
+
+7. Nos innovations  
+   - Informatiques dès le CE1 avec exemples d'activités
+   - Apprentissage du Coran et de l'anglais
+   - Présentation des classes intelligentes
+   - Projets technologiques et jardinage
+   - Partenariats éducatifs et communautaires
+
+Design : Grilles dynamiques, animations à l'apparition
+         Pictogrammes technologiques
+
+8. FAQ
+   - Questions fréquentes : admissions, horaires, pédagogie, discipline, etc.
+   - Liens rapides vers d'autres sections
+
+Design : 
+   - Format accordéon
+   - Design léger
+
+9. Nous joindre  
+   - Coordonnées complètes
+   - Carte interactive
+   - Formulaire de contact avec objet + nom + message
+
+
+Vision de l’école 
+===================
+-	Informatique dès le CE1
+-	Coran et étude islamique
+-	Anglais à tous les niveaux
+-	Classes intelligentes pour un apprentissage rapide
+-	Sécurité renforcée avec caméras de surveillance
+-	Initiation au jardinage

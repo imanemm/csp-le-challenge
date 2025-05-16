@@ -21,8 +21,15 @@ Elles devront être choisies en fonction de leur clarté, leur pertinence foncti
 
 ✍️ Typographie
 --------------
-Police utilisée : Roboto (Google Fonts) – lisible, professionnelle et moderne.
+Police utilisée : Roboto (Google Fonts) et Roboto Flex – lisible, professionnelle et moderne.
+À copier dans fichier html : 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+À copier dans CSS :
+    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Flex", sans-serif;
 🔗 Liens
 --------
 - Pas de soulignement par défaut.
