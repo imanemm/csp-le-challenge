@@ -1,0 +1,45 @@
+/* {
+    border: 1px solid red;
+} 
+
+/* Header */
+header { 
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+}
+
+.hero-image {
+    width: 100%;
+    height: 70vh;
+    background-image: url('../photos/accueil.JPG');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-content {
+    max-height: 15vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto 0;
+}
+
+.hero-text {
+    width: 50%;
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero-quote {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    border-left: 3px solid #a33838;
+}
