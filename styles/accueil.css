@@ -15,10 +15,11 @@ body h3 {
     color: #2F2D33;
 }
 
-body p {
+section p {
     font-size: 1.2rem;
     color: #2F2D33;
     line-height: 1.5;
+    text-align: justify;
 }
 
 .cta-button {
