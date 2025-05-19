@@ -1,6 +1,48 @@
 /* {
     border: 1px solid red;
-} 
+} */
+
+body h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #a33838;
+    padding-bottom: 2rem;
+}
+
+body h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2F2D33;
+}
+
+body p {
+    font-size: 1.2rem;
+    color: #2F2D33;
+    line-height: 1.5;
+}
+
+.cta-button {
+    width: 30%;
+    padding: 1rem;
+    margin: 3rem;
+    background-color: #01687D;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #018EA0;
+    transition: color 0.3s ease-in-out;
+}
+
+.cta-button a {
+    color: white;
+    text-decoration: none;
+}
 
 /* Header */
 header { 
@@ -35,6 +77,7 @@ header {
     width: 50%;
     padding: 2rem;
     text-align: center;
+    color: #2F2D33;
 }
 
 .hero-quote {
@@ -42,4 +85,105 @@ header {
     padding: 2rem;
     text-align: center;
     border-left: 3px solid #a33838;
+}
+
+/* About */
+#about {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.about-title {
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+}
+
+.about-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5rem 0;
+    border: 2px solid #a33838
+}
+
+.about-content span {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #01687D;
+}
+
+.about-top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.about-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.about-bottom-left, .about-bottom-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    padding: 2rem;
+}
+
+#about .cta-button {
+    margin: 3rem auto;
+}
+
+/* Mission */
+#mission {
+    min-height: 100vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#mission img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.mission-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.mission-text {
+    width: 50%;
+    padding: 2rem;
+    text-align: left;
+    color: #2F2D33;
+}
+
+.mission-image {
+    width: 50%;
+    padding: 2rem;
+    text-align: center;
 }

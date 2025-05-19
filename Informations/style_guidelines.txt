@@ -10,6 +10,7 @@ Le site de CSP Le Challenge doit transmettre une image moderne, dynamique et pro
 ----------------------
 - Platinum (#F2F2F2) : Arrière-plan de toutes les pages, sections principales, formulaire de contact
 - Muted Cadet Blue (#89AEB5) : Titres, encadrés, hover sur les boutons, cartes info, bordures
+- Darker shade of blue (#01687D)
 - Charcoal Jet (#2F2D33) : Paragraphes, titres, menus, texte de formulaire
 - Leafy Green (#4BAF4F) : Pied de page, icônes de validation, liens secondaires, badges
 - Crimson Brick (#A33838) : Barre de navigation, boutons primaires, survols, CTA (call-to-action), titres d’alertes
