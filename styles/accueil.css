@@ -2,49 +2,6 @@
     border: 1px solid red;
 } */
 
-body h2 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #a33838;
-    padding-bottom: 2rem;
-}
-
-body h3 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #2F2D33;
-}
-
-section p {
-    font-size: 1.2rem;
-    color: #2F2D33;
-    line-height: 1.5;
-    text-align: justify;
-}
-
-.cta-button {
-    width: 30%;
-    padding: 1rem;
-    margin: 3rem;
-    background-color: #01687D;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 20px;
-    font-size: 1.2rem;
-    transition: color 0.3s ease-in-out;
-}
-
-.cta-button:hover {
-    background-color: #018EA0;
-    transition: color 0.3s ease-in-out;
-}
-
-.cta-button a {
-    color: white;
-    text-decoration: none;
-}
-
 /* Header */
 header { 
     min-height: 85vh;
@@ -99,6 +56,7 @@ header {
 }
 
 .about-title {
+    margin-top: 5rem;
     width: 100%;
     text-align: center;
     padding: 2rem;
