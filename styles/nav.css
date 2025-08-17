@@ -25,27 +25,56 @@ section p {
     text-align: justify;
 }
 
-.cta-button {
+.cta-button1, .cta-button2, .cta-button3 {
     width: 30%;
     padding: 1rem;
     margin: 3rem 0;
-    background-color: #01687D;
     color: white;
     text-align: center;
     text-decoration: none;
     border-radius: 20px;
-    font-size: 1.2rem;
     transition: color 0.3s ease-in-out;
 }
 
-.cta-button:hover {
+.cta-button1 {
+    background-color: #01687D;
+}
+
+.cta-button2 {
+    background-color: #a33838;
+}
+
+.cta-button3 {
+    background-color: #f2f2f2;
+}
+
+.cta-button1:hover {
     background-color: #018EA0;
     transition: color 0.3s ease-in-out;
 }
 
-.cta-button a {
+.cta-button2:hover {
+    background-color: #c55a5a;
+    transition: color 0.3s ease-in-out;
+}
+
+.cta-button3:hover {
+    background-color: #f5f3ed;
+    transition: color 0.3s ease-in-out;
+}
+
+.cta-button1 a, .cta-button2 a {
     color: white;
     text-decoration: none;
+}
+
+.cta-button3 a {
+    color: #a33838;
+    text-decoration: none;
+}
+
+.cta-button1 a, .cta-button2 a, .cta-button3 a {
+    font-size: 1.2rem;
 }
 
 /* Navbar */
@@ -154,7 +183,34 @@ section p {
 }
 
 /* Footer */
+.cta-section {
+    background-image: url('../photos/accueil.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.8);
+}
+
+.cta-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.cta-section-content h1 {
+    color: #f7f5ef;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
 footer {
+    min-height: 60vh;
     display: flex;
     flex-direction: column !important;
     justify-content: space-between;
@@ -168,7 +224,7 @@ footer {
 footer a {
     text-decoration: none;
     color: #f2f2f2;
-    font-size: 1.2rem;
+    font-size: 1rem;
     transition: color 0.3s ease;
 }
 
@@ -178,7 +234,12 @@ footer img {
 }
 
 .icon  {
-    font-size: 2rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.icon-media  {
+    font-size: 1.5rem;
     padding: 0.5rem;
 }
 
@@ -196,7 +257,7 @@ footer img {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center; 
-    width: 60%;
+    width: 40%;
     padding: 0 5rem;
     gap: 5rem;
 }
@@ -206,7 +267,6 @@ footer img {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    gap: 1rem;
 }
 
 .footer-right {
@@ -241,4 +301,11 @@ footer img {
     gap: 1rem;
     margin: 1rem 0;
     border-top: 1px solid #f2f2f2;
+}
+
+.footer-down {
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid #f2f2f2;
+    width: 100%;
 }

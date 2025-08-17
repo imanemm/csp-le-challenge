@@ -1,7 +1,18 @@
 /* {
     border: 1px solid red;
+} */
+
+h1 {
+    font-size: 2.5rem;
 }
 
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
 /* Header */
 header { 
     min-height: 85vh;
@@ -67,13 +78,13 @@ header {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 5rem 0;
     border: 2px solid #a33838
 }
 
 .about-content span {
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 600;
     color: #01687D;
 }
@@ -91,21 +102,12 @@ header {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 2rem;
 }
 
-.about-bottom-left, .about-bottom-right {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 50%;
-    padding: 2rem;
-}
-
-#about .cta-button {
+#about .cta-button1 {
     margin: 3rem auto;
 }
 
@@ -163,26 +165,124 @@ header {
     text-align: center;
 }
 
-#mission .cta-button {
-    background-color: #f2f2f2;
+#mission .cta-button3 {
+    margin: 3rem auto;
     width: 50%;
-    transition: color 0.3s ease-in-out;
 }
 
-#mission .cta-button:hover {
-    background-color: #a33838;
+/* Vision */
+#vision {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.vision-title {
+    margin-top: 5rem;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+}
+
+.valeur-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.valeur-item {
+    position: relative;
+    width: 25%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.valeur-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: #f2f2f2;
-    transition: color 0.3s ease-in-out;
 }
 
-#mission .cta-button:hover a {
+.valeur-content h3 {
+    opacity: 1;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease-in-out;
     color: #f2f2f2;
-    transition: color 0.3s ease-in-out;
 }
 
-#mission .cta-button a {
-    color: #a33838;
-    transition: color 0.3s ease-in-out;
+.valeur-content p {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 0 1rem;
+    color: #f2f2f2;
+}
+
+.valeur-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.valeur-item img {
+    filter: brightness(0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.valeur-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.valeur-item:hover .valeur-content p {
+    opacity: 1;
+}
+
+.valeur-item:hover .valeur-content h3 {
+    color: #f2f2f2;
+}
+
+.valeur-item:hover .valeur-overlay {
+    opacity: 1;
+}
+
+.valeur-item:hover img {
+    filter: brightness(0.8);
+    transition: filter 0.3s ease-in-out;
+}
+
+#vision .cta-button2 {
+    margin: 3rem auto;
 }
 
 /* Innovations */
