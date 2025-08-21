@@ -2,23 +2,15 @@
     border: 1px solid red;
 } */
 
-h1 {
-    font-size: 2.5rem;
-}
-
 h2 {
-    font-size: 1.5rem;
-}
-
-h3 {
-    font-size: 1.25rem;
+    color: #a33838;
+    padding-bottom: 2rem;
 }
 /* Header */
 header { 
     min-height: 85vh;
     display: flex;
     flex-direction: column;
-    font-family: "Roboto", sans-serif;
     font-size: 1.2rem;
 }
 
