@@ -1,56 +1,96 @@
+/* {
+    border: red solid 1px;
+} */
 
-#niveaux {
-    min-height: 100vh;
-    padding-top: 5rem;
+section {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    padding: 2rem;
 }
 
-.niveaux-top {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+h2 {
+    padding: 0.5rem;
 }
 
-.niveaux-down {
-    width: 80%;
+.red {
+    color: #a33838;
+}
+
+/* Approche Section */
+#approche {
+    min-height: 85vh;
+}
+.approche-wrapper {
+    width: 100%;
+    height: 70vh;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    gap: 2rem;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.approche-item {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem 0;
-}
-
-.niveaux-item {
-    display: flex;
-    flex-direction : column;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    padding: 2rem;
-    border-radius: 1rem;
-    background-color: #f2f2f2;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.niveaux-item:hover {
-    transform: scale(1.005);
-    transition: transform 0.3s ease;
-}
-
-.niveaux-item img {
-    width: 70%;
-    height: auto;
-    border-radius: 1rem;
     padding: 1rem;
+    border: 2px solid #a33838;
 }
 
-.niveaux-item .cta-button {
+.approche-item .fa-solid {
+    font-size: 3rem;
+    padding: 3rem;
+    color: #a33838;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+}
+
+/* Niveaux Section */
+.niveaux-wrapper {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.niveaux-item1, .niveaux-item2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.niveaux-item1 {
+    background-color: #f2f2f2;
+    border: 2px solid #a33838;
+    flex-direction: row;
+}
+.niveaux-item2 {
+    background-color: #cccccc;
+    border: 2px solid #a33838;
+    flex-direction: row-reverse;
+}
+.niveaux-item1 img, .niveaux-item2 img {
+    width: 50%;
+    height: auto;
+}
+
+.niveaux-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.cta-button1 {
+    margin: 3rem auto;
 }
