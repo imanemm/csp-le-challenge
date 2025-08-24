@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/under.css">
+    <link rel="stylesheet" href="styles/contact.css">
 </head>
 <body>
     <div id="navbar">
@@ -46,9 +46,9 @@
                         <a href="vie_scolaire.html">Vie scolaire</a>
                     </button>
                     <div class="dropdown-content">
-                        <a href="">Évènements</a>
-                        <a href="">Activités et clubs</a>
-                        <a href="">Services</a>
+                        <a href="vie_scolaire.html#evenements">Évènements</a>
+                        <a href="vie_scolaire.html#activites">Activités et clubs</a>
+                        <a href="vie_scolaire.html#services">Services</a>
                     </div>
                 </div>
                 <div class="dropdown" id="inscription-navbar">
@@ -56,9 +56,9 @@
                         <a href="admission.html">Inscription</a>
                     </button>
                     <div class="dropdown-content">
-                        <a href="inscription/inscription.html">Admission</a>
-                        <a href="inscription/test-admission.html">Test d'admission</a>
-                        <a href="inscription/formulaires.html">Formulaires</a>
+                        <a href="admission.html#processus">Processus d'admission</a>
+                        <a href="admission.html#test">Test d'admission</a>
+                        <a href="admission.html#formulaires">Formulaires</a>
                     </div>
                 </div>
                 <div class="dropdown" id="innovation-navbar">
@@ -83,10 +83,62 @@
             </div>
         </div>
     </div>
-    <section id="hero">
-        <h1>Page Under Construction</h1>
-        <h3>Coming Soon!</h3>
-        <img src="photos/undraw_construction-workers_z99i.svg" alt="Construction">
+    <section id="contact">
+        <h2 class="red"><i class="fa-solid fa-circle-chevron-right"></i> Contact</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2>Envoyez nous un message</h2>
+                <p>
+                    <span>Remplissez</span> le formulaire et nous vous répondrons dans les plus brefs délais.
+                </p>
+
+                <form action="" method="post">
+                    <input type="text" placeholder="Nom complet*" required>
+                    <br>
+                    <input type="email" placeholder="Courriel*" required>
+                    <br>
+                    <input type="text" placeholder="Object*" required>
+                    <br>
+                    <label for="message">Écrivez votre message ici*</label>
+                    <br>
+                    <textarea required></textarea>
+                    <br>
+                    <button type="submit">Envoyez le formulaire</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h2>Nos coordonnées</h2>
+                <div class="contact-info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>csplechallenge@gmail.com</p>
+                </div>
+                <div class="contact-info-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+227 98850400</p>
+                </div>
+                <div class="contact-info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Aéroport collée à la clinique Djoliba</p>
+                </div>
+                <div class="contact-info-item">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <p>+223 83534916</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-social">
+            <h2>Découvrez, Partagez et Soutenez Notre Mission sur les Réseaux Sociaux!</h2>
+            <div class="contact-social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+    </section>
+    <section id="carte">
+        <h2 class="red"><i class="fa-solid fa-circle-chevron-right"></i> Localisation</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.632622024634!2d2.1207696875978233!3d13.511787799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x111d4c6b8b5b9d6f%3A0x7e4a5e8c6e8e8e8e!2sCSP%20Le%20Challenge!5e0!3m2!1sfr!2sne!4v1701301234567!5m2!1sfr!2sne" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </section>
     <footer>
         <div class="cta-section">

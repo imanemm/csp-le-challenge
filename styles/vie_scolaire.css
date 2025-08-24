@@ -1,0 +1,110 @@
+/* {
+    border : red solid 1px;
+} */
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 2rem;
+}
+
+h2 {
+    padding: 0.5rem;
+}
+
+.red {
+    color: #a33838;
+}
+
+/* Evenements */
+.evenements-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.evenement {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border: 1px solid #a33838;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.evenement img {
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.evenement-text {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Activités */
+.activites-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    margin: 2rem 0;
+} 
+
+.activite {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    text-align: center;
+    padding: 1rem;
+}
+
+.activite img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    height: auto;
+    object-fit: contain;
+    border : 5px solid #a33838;
+    margin: 1rem;
+}
+
+/* Services */
+.service {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.service img {
+    width: 50%;
+    border : 5px solid #a33838;
+}
