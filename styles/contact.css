@@ -40,7 +40,6 @@ h2 {
     align-items: left;
     flex-wrap: wrap;
     border: 2px solid #a33838; 
-    border-radius: 15px;
 }
 
 .contact-form h2 {
@@ -102,7 +101,7 @@ button:hover {
     justify-content: center;
 }
 
-#contact .fa-envelope, #contact .fa-phone, #contact .fa-location-dot {
+#contact .fa-envelope, #contact .fa-phone, #contact .fa-location-dot, .fa-whatsapp {
     font-size: 2.5rem;
     margin: 10px 0;
     color: #a33838; 
@@ -132,14 +131,14 @@ button:hover {
     padding: 40px 0;
 }
 
-#contact .fa-facebook, #contact .fa-instagram, #contact .fa-linkedin, #contact .fa-whatsapp {
+.contact-social .fa-linkedin, .contact-social .fa-facebook {
     font-size: 4rem;
     margin: 10px 0;
     color: #a33838; 
     transition: all 0.3s ease-in-out;
 }
 
-#contact .fa-facebook:hover, #contact .fa-instagram:hover, #contact .fa-linkedin:hover, #contact .fa-whatsapp:hover {
+.contact-social .fa-facebook:hover, .contact-social .fa-linkedin:hover {
     color: #a33838;
     transition: all 0.3s ease-in-out;
     transform: translateY(-5px);

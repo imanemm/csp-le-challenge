@@ -131,8 +131,8 @@ header {
 .mission-text {
     position: absolute;
     top: 10%;
-    left: 50%;
-    width: 50%;
+    left: 40%;
+    width: 60%;
     height: auto;
     padding: 5rem;
     text-align: left;
@@ -159,7 +159,7 @@ header {
 
 #mission .cta-button3 {
     margin: 3rem auto;
-    width: 50%;
+    width: 60%;
 }
 
 /* Vision */

@@ -46,7 +46,7 @@ section p {
 .cta-button1, .cta-button2, .cta-button3 {
     width: 30%;
     padding: 1rem;
-    margin: 3rem 0;
+    margin: 3rem auto;
     color: white;
     text-align: center;
     text-decoration: none;
