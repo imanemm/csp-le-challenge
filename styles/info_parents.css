@@ -1,0 +1,90 @@
+/* {
+    border: red solid 1px;
+} */
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 2rem;
+}
+
+h2 {
+    padding: 0.5rem;
+}
+
+.red {
+    color: #a33838;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    color: #333;
+    padding: 3rem 0;
+}
+
+li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+a {
+    color: #01687D;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Horaire-type Section */
+#horaire img {
+    width: 70%;
+    height: auto;
+    margin: 1rem auto;
+}
+
+#horaire p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    margin-top: 1rem;
+}
+
+/* Frais de scolarité Section */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+td:first-child {
+    font-weight: 600;
+    color: #01687D;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Code vestimentaire Section */
+#uniformes img {
+    width: 70%;
+    height: auto;
+    margin: 1rem auto;
+}

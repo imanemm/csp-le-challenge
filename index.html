@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <link rel="stylesheet" href="styles/general.css">
         <link rel="stylesheet" href="styles/accueil.css">
     </head>
@@ -84,8 +85,17 @@
             </div>
         </div>
         <header>
-            <div class="hero-image" id="hero-image">
-                
+            <div class="hero-image-container" id="hero-image">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="photos/accueil.JPG" alt="Image 1"></div>
+                        <div class="swiper-slide"><img src="photos/accueil.JPG" alt="Image 2"></div>
+                        <div class="swiper-slide"><img src="photos/accueil.JPG" alt="Image 3"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
             </div>
             <div class="hero-content">
                 <div class="hero-text">
@@ -93,7 +103,7 @@
                     <h1>École d'excellence</h1>
                 </div>
                 <div class="hero-quote">
-                    <h1>"Nous formons les leaders de demain."</h1>
+                    <h1>"Au CSP Le Challenge, nous formons les leaders de demain."</h1>
                 </div>
             </div>
         </header>
@@ -167,7 +177,7 @@
         <footer>
             <div class="cta-section">
                 <div class="cta-section-content">
-                    <h1>Choisir CSP Le Challenge, c'est choisir l'excellence</h1>
+                    <h1>Le CSP Le Challenge : le choix qui assure l’avenir de vos enfants.</h1>
                     <div class="cta-button2">
                         <a href="">Inscrivez-vous dès maintenant</a>
                     </div>
@@ -226,5 +236,26 @@
                 <p>2025 - Tous droits réservés © CSP Le Challenge</p>
             </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const swiper = new Swiper('.swiper', {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                    autoplay: {
+                        delay: 3000,
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                });
+            });
+        </script>
     </body>
 </html>
