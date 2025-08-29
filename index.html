@@ -84,52 +84,62 @@
                 </div>
             </div>
         </div>
-        <header>
-            <div class="hero-image-container" id="hero-image">
-                <div class="swiper mySwiper">
+        <header class="hero" role="banner">
+            <div class="hero-image-container">
+                <div class="swiper mySwiper" aria-label="Diaporama des images de l'école">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide"><img src="photos/accueil.JPG" alt="Image 1"></div>
                         <div class="swiper-slide"><img src="photos/accueil.JPG" alt="Image 2"></div>
                         <div class="swiper-slide"><img src="photos/accueil.JPG" alt="Image 3"></div>
                     </div>
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination" aria-label="true"></div>
+                    <div class="swiper-button-prev" aria-label="Image précédente"></div>
+                    <div class="swiper-button-next" aria-label="Image suivante"></div>
                 </div>
             </div>
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>CSP Le Challenge</h1>
-                    <h1>École d'excellence</h1>
-                </div>
-                <div class="hero-quote">
-                    <h1>"Au CSP Le Challenge, nous formons les leaders de demain."</h1>
+                    <h1>Au CSP Le Challenge,</h1>
+                    <h2>nous formons les leaders de demain.</h2>
+                    <blockquote class="hero-quote">
+                        « L'éducation est l'arme la plus puissante pour changer le monde. » 
+                    </blockquote>
+                    <div class="cta-button2">
+                        <a href="inscription.html">Inscrivez-vous dès maintenant</a>
+                    </div>
                 </div>
             </div>
         </header>
-        <section id="about">
-            <div class="about-title">
-                <h2>CSP Le Challenge est bien plus qu'une école, c'est...</h2>
-            </div>
-            <div class="about-content">
-                <div class="about-top">
-                    <h3><span>300+</span> élèves</h3>
-                    <h3><span>30+</span> enseignants</h3>
-                    <h3><span>10+</span> personnels administratifs</h3>
+        <section id="navigation">
+            <div class="nav-wrapper">
+                <div class="nav-card">
+                    <a href="pedagogie.html">
+                        <i class="fa-solid fa-school"></i>
+                        <h3>Programme</h3>
+                        <p>Découvrez notre approche pédagogique innovante et nos niveaux scolaires adaptés.</p>
+                    </a>
                 </div>
-                <div class="about-bottom">
-                    <h3><span>2+</span> ans d'expérience</h3>
-                    <h3><span>4</span> niveaux scolaires</h3>  
-                    <h3><span>3</span> langues enseignées</h3>
-                    <h3><span>5+</span> sports pratiqués</h3>
-                </div> 
+                <div class="nav-card">
+                    <a href="vie_scolaire.html">
+                        <i class="fa-solid fa-users"></i>
+                        <h3>Vie scolaire</h3>
+                        <p>Explorez les activités, clubs et services qui enrichissent la vie de nos élèves.</p>
+                    </a>
+                </div>
+                <div class="nav-card">
+                    <a href="histoire.html">
+                        <i class="fa-solid fa-book"></i>
+                        <h3>Histoire</h3>
+                        <p>Apprenez-en plus sur l'histoire et les valeurs fondamentales de notre établissement.</p>
+                    </a>
+                </div>
             </div>
-            <div class="cta-button1">
-                <a href="etablissement/etablissement.html">En savoir plus</a>
-            </div> 
         </section>
         <section id="mission">
             <div class="mission-content">
+                <figure class="mission-image">
+                    <img src="photos/accueil.JPG" alt="Mission">
+                </figure>
                 <div class="mission-text">
                     <h2>Notre mission</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere maiores et soluta corporis aliquam laborum, modi reprehenderit tempore cumque provident quod vero voluptatibus deleniti dignissimos animi velit sapiente fuga voluptates.</p>
@@ -137,13 +147,10 @@
                         <a href="etablissement/mission.html">Découvrer plus</a>
                     </div>
                 </div>
-                <div class="mission-image">
-                    <img src="photos/accueil.JPG" alt="Mission">
-                </div>
             </div>
         </section>
         <section id="vision">
-            <h1 class="vision-title">Notre vision</h1>
+            <h2 class="vision-title">Notre vision</h2>
             <div class="valeur-wrapper">
                 <div class="valeur-item">
                     <img src="photos/accueil.JPG" alt="Valeur 1">
@@ -171,7 +178,36 @@
                 </div>
             </div>
             <div class="cta-button2">
-                <a href="">Apprennez plus</a>
+                <a href="etablissement.html">Apprennez plus</a>
+            </div>
+        </section>
+        <section id="actualites">
+            <h2>Actualités</h2>
+            <div class="actualites-wrapper">
+                <div class="actualite-card">
+                    <img src="photos/accueil.JPG" alt="Actualité 1">
+                    <div class="actualite-content">
+                        <h3>Titre de l'actualité 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.</p>
+                        <a href="etablissement.html#nouvelles" class="read-more">Lire la suite</a>
+                    </div>
+                </div>
+                <div class="actualite-card">
+                    <img src="photos/accueil.JPG" alt="Actualité 2">
+                    <div class="actualite-content">
+                        <h3>Titre de l'actualité 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.</p>
+                        <a href="etablissement.html#nouvelles" class="read-more">Lire la suite</a>
+                    </div>
+                </div>
+                <div class="actualite-card">
+                    <img src="photos/accueil.JPG" alt="Actualité 3">
+                    <div class="actualite-content">
+                        <h3>Titre de l'actualité 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.</p>
+                        <a href="etablissement.html#nouvelles" class="read-more">Lire la suite</a>
+                    </div>
+                </div>
             </div>
         </section>
         <footer>
