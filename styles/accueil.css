@@ -17,7 +17,7 @@ section {
 
 /* Header */
 .hero { 
-    min-height: 85vh;
+    min-height: calc(100vh - 120px);
     position: relative;
     isolation: isolate;
     background: #000;

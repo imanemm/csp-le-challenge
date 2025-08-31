@@ -7,7 +7,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles/general.css">
@@ -23,68 +23,56 @@
             </div>
             <div class="nav-down">
                 <div class="dropdown" id="etablissement-navbar">
-                    <button class="dropbtn">
-                        <a href="etablissement.html">Établissement</a>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="etablissement.html#histoire">Histoire</a>
-                        <a href="etablissement.html#mission">Mission et Vision</a>
-                        <a href="etablissement.html#nouvelles">Nouvelles</a>
+                    <a class="dropbtn" href="etablissement.html">Établissement</a>
+                    <div class="dropdown-content" role="menu" aria-label="Sous-menu Établissement">
+                        <a href="etablissement.html#histoire" role="menuitem">Histoire</a>
+                        <a href="etablissement.html#mission" role="menuitem">Mission et Vision</a>
+                        <a href="etablissement.html#nouvelles" role="menuitem">Nouvelles</a>
                     </div>
                 </div>
                 <div class="dropdown" id="pedagogie-navbar">
-                    <button class="dropbtn">
-                        <a href="pedagogie.html">Pédagogie</a>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="pedagogie.html#approche">Approche pédagogie</a>
-                        <a href="pedagogie.html#niveaux">Niveaux scolaires</a>
+                    <a class="dropbtn" href="pedagogie.html">Pédagogie</a>
+                    <div class="dropdown-content" role="menu" aria-label="Sous-menu Pédagogie">
+                        <a href="pedagogie.html#approche" role="menuitem">Approche pédagogie</a>
+                        <a href="pedagogie.html#niveaux" role="menuitem">Niveaux scolaires</a>
                     </div>
                 </div>
                 <div class="dropdown" id="vie-navbar">
-                    <button class="dropbtn">
-                        <a href="vie_scolaire.html">Vie scolaire</a>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="vie_scolaire.html#evenements">Évènements</a>
-                        <a href="vie_scolaire.html#activites">Activités et clubs</a>
-                        <a href="vie_scolaire.html#services">Services</a>
+                    <a class="dropbtn" href="vie_scolaire.html">Vie scolaire</a>
+                    <div class="dropdown-content" role="menu" aria-label="Sous-menu Vie scolaire">
+                        <a href="vie_scolaire.html#evenements" role="menuitem">Évènements</a>
+                        <a href="vie_scolaire.html#activites" role="menuitem">Activités et clubs</a>
+                        <a href="vie_scolaire.html#services" role="menuitem">Services</a>
                     </div>
                 </div>
                 <div class="dropdown" id="inscription-navbar">
-                    <button class="dropbtn">
-                        <a href="admission.html">Inscription</a>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="admission.html#processus">Processus d'admission</a>
-                        <a href="admission.html#test">Test d'admission</a>
-                        <a href="admission.html#formulaires">Formulaires</a>
+                    <a class="dropbtn" href="admission.html">Inscription</a>
+                    <div class="dropdown-content" role="menu" aria-label="Sous-menu Inscription">
+                        <a href="admission.html#processus" role="menuitem">Processus d'admission</a>
+                        <a href="admission.html#test" role="menuitem">Test d'admission</a>
+                        <a href="admission.html#formulaires" role="menuitem">Formulaires</a>
                     </div>
                 </div>
                 <div class="dropdown" id="innovation-navbar">
-                    <button class="dropbtn">
-                        <a href="innovations.html">Innovations</a>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="innovations.html#projets">Projets</a>
-                        <a href="innovations.html#partenariats">Partenariats</a>
+                    <a class="dropbtn" href="innovations.html">Innovations</a>
+                    <div class="dropdown-content" role="menu" aria-label="Sous-menu Innovations">
+                        <a href="innovations.html#projets" role="menuitem">Projets</a>
+                        <a href="innovations.html#partenariats" role="menuitem">Partenariats</a>
                     </div>
                 </div>
                 <div class="dropdown" id="info-navbar">
-                    <button class="dropbtn">
-                        <a href="info_parents.html">Info-Parents</a>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="info_parents.html#horaire">Horaire-type</a>
-                        <a href="info_parents.html#frais">Frais de scolarité</a>
-                        <a href="info_parents.html#uniformes">Uniformes</a>
+                    <a class="dropbtn" href="info_parents.html">Info-Parents</a>
+                    <div class="dropdown-content" role="menu" aria-label="Sous-menu Info-Parents">
+                        <a href="info_parents.html#horaire" role="menuitem">Horaire-type</a>
+                        <a href="info_parents.html#frais" role="menuitem">Frais de scolarité</a>
+                        <a href="info_parents.html#uniformes" role="menuitem">Uniformes</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <section id="processus">
-        <h3>Inscription</h2>
+        <h3>Inscription</h3>
         <h2 class="red"><i class="fa-solid fa-circle-chevron-right"></i>Processus d'admission</h2>
         <div class="processus-wrapper">
             <div class="processus-text">
@@ -98,7 +86,7 @@
         </div>
     </section>
     <section id="test">
-        <h3>Inscription</h2>
+        <h3>Inscription</h3>
         <h2 class="red"><i class="fa-solid fa-circle-chevron-right"></i>Test d'admission</h2>
         <div class="test-wrapper">
             <div class="test-text">
@@ -112,7 +100,7 @@
         </div>
     </section>
     <section id="formulaires">
-        <h3>Inscription</h2>
+        <h3>Inscription</h3>
         <h2 class="red"><i class="fa-solid fa-circle-chevron-right"></i>Formulaires</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem aliquid nisi quia voluptas iste obcaecati, dolor perferendis distinctio, unde laborum nam dolorem. Repellat alias sequi labore iure laborum atque voluptate.</p>
         <br><br>
@@ -120,65 +108,75 @@
         <a href="#">Formulaire 2</a>
     </section>
     <footer>
-        <div class="cta-section">
+        <section class="cta-section" aria-labelledby="cta-title">
+            <div class="cta-overlay"></div>
             <div class="cta-section-content">
-                <h1>Le CSP Le Challenge : le choix qui assure l’avenir de vos enfants.</h1>
+                <h2 id="cta-title">Le CSP Le Challenge : le choix qui assure l’avenir de vos enfants.</h2>
                 <div class="cta-button2">
-                    <a href="">Inscrivez-vous dès maintenant</a>
+                   <a href="admission.html">Inscrivez-vous dès maintenant</a>
                 </div>
             </div>
-        </div>
-        <div class="footer-up">
+        </section>
+        <div class="footer-up container">
             <div class="footer-left">
                 <div class="footer-logo">
                     <img src="photos/logo.png" alt="Logo">
                 </div>
-                <div class="footer-info">
-                    <p><i class="fa-solid fa-phone icon"></i>+227 98850400</p>
-                    <p><i class="fa-solid fa-location-dot icon"></i> Aéroport collée à la clinique Djoliba</p>
-                    <p><i class="fa-solid fa-envelope icon"></i> csplechallenge@gmail.com</p>
-                    <p><i class="fa-brands fa-whatsapp icon"></i> +223 83534916</p>
-                </div>
+
+                <address class="footer-info">
+                    <p><i class="fa-solid fa-phone icon"></i>
+                    <a href="tel:+22798850400">+227 98 85 04 00</a></p>
+                    <p><i class="fa-brands fa-whatsapp icon"></i>
+                    <a href="https://wa.me/22383534916" target="_blank" rel="noopener">+223 83 53 49 16</a></p>
+                    <p>
+                        <i class="fa-solid fa-location-dot icon"></i>
+                        Aéroport, collée à la clinique Djoliba
+                    </p>
+                    <p><i class="fa-solid fa-envelope icon"></i>
+                    <a href="mailto:csplechallenge@gmail.com">csplechallenge@gmail.com</a></p>
+                </address>
             </div>
-            <div class="footer-right">
-                <div class="footer-right-left">
+            <nav class="footer-right" aria-label="Liens utiles">
+                <div class="footer-right-col">
                     <ul>
-                        <li><a href="etablissement.html#nouvelles">Nouvelles</a></li>
-                        <li><a href="info-parents.html">Info-Parents</a></li>
-                        <li><a href="info-parents.html#frais">Frais de scolarité</a></li>
-                        <li><a href="info-parents.html#horaire">Horaire</a></li>
+                    <li><a href="etablissement.html#nouvelles">Nouvelles</a></li>
+                    <li><a href="info-parents.html">Info-Parents</a></li>
+                    <li><a href="info-parents.html#frais">Frais de scolarité</a></li>
+                    <li><a href="info-parents.html#horaire">Horaire</a></li>
                     </ul>
                 </div>
-                <div class="footer-right-middle-1">
+                <div class="footer-right-col">
                     <ul>
-                        <li><a href="pedagogie.html#niveaux">Niveaux scolaires</a></li>
-                        <li><a href="pedagogie.html#approche">Approche pédagogique</a></li>
-                        <li><a href="inscription.html#admission">Admission</a></li>
-                        <li><a href="inscription.html#formulaires">Formulaires</a></li>
+                    <li><a href="pedagogie.html#niveaux">Niveaux scolaires</a></li>
+                    <li><a href="pedagogie.html#approche">Approche pédagogique</a></li>
+                    <li><a href="admission.html#processus">Admission</a></li>
+                    <li><a href="admission.html#formulaires">Formulaires</a></li>
                     </ul>
                 </div>
-                <div class="footer-right-middle-2">
+                <div class="footer-right-col">
                     <ul>
-                        <li><a href="vie-scolaire.html">Vie à l'école</a></li>
-                        <li><a href="vie-scolaire.html#evenements">Évènements</a></li>
-                        <li><a href="innovations.html#partenariats">Partenariats</a></li>                            
-                        <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="vie-scolaire.html">Vie à l'école</a></li>
+                    <li><a href="vie-scolaire.html#evenements">Évènements</a></li>
+                    <li><a href="innovations.html#partenariats">Partenariats</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
                     </ul>
                 </div>
-                <div class="footer-right-right">
+                <div class="footer-right-col">
                     <ul>
-                        <li><a href="innovations.html#projets">Nos projets</a></li>
-                        <li><a href="contact.html">Nous joindre</a></li>
+                    <li><a href="innovations.html#projets">Nos projets</a></li>
+                    <li><a href="contact.html">Nous joindre</a></li>
                     </ul>
                     <div class="footer-media">
-                        <a href="https://www.facebook.com/profile.php?id=61568256483342" target="_blank"><i class="fa-brands fa-facebook icon-media"></i></a>
-                        <a href="#" target="_blank"><i class="fa-brands fa-linkedin icon-media"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61568256483342" target="_blank" rel="noopener" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook icon-media"></i></a>
+                    <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin icon-media"></i></a>
                     </div>
                 </div>
-            </div>
+            </nav>
         </div>
         <div class="footer-down">
-            <p>2025 - Tous droits réservés © CSP Le Challenge</p>
+            <p>© 2025 CSP Le Challenge — Tous droits réservés</p>
         </div>
     </footer>
 </body>
