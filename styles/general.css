@@ -174,7 +174,6 @@ section p {
 .dropdown .dropbtn {
     display: inline-block;
     padding: 2rem 1rem;
-    min-width: 220px;
 }
 
 .dropdown:hover .dropdown-content, .dropdown:focus-visible .dropdown-content{
@@ -187,7 +186,6 @@ section p {
     background-color: #a33838;
     top: 100%;
     left: 0;
-    min-width: 220px;
     box-shadow: 0 10px 24px rgba(0,0,0,.18);
     z-index: 1;
     flex-direction: column;
