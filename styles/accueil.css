@@ -464,24 +464,58 @@ header h2 {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+    header {
+        height: calc(100vh - 150px);
+    }
+}
 
-    .hero-text {
-        width: 90%;
-        font-size: 0.9rem;
+@media (max-width: 768px) {
+    .swiper .swiper-button-next, .swiper .swiper-button-prev {
+    opacity: 0;
+}
+
+    .hero-content {
+        width: 100%;
+        max-width: 100%;
+        padding: 1rem;
+        box-sizing: border-box;
     }
 
+    .hero-text {
+        width: 95%;
+        max-width: 95%;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .hero-text, .hero-text h1, .hero-text h2, .hero-quote, .typed-text {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        word-break: break-word;
+        hyphens: auto;
+        white-space: normal;
+    }
+
+    header h1 {
+        font-size: 2rem;
+        word-wrap: break-words;
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
     .nav-card {
         min-height: 250px;
     }
 
     .valeur-item {
-        flex: 1 1 45%;
-        max-width: 45%;
+        flex: 1 1 50%;
+        max-width: 50%;
     }
 
     .actualite-card {
-        flex: 1 1 90%;
-        max-width: 90%;
+        flex: 1 1 80%;
+        max-width: 80%;
     }
 }

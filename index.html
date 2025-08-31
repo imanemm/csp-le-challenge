@@ -16,8 +16,13 @@
     </head>
     <body>
         <div id="navbar">
-            <a href="index.html"><img src="photos/logo.png" alt="Accueil"></a>
-            <div class="nav">
+            <a href="index.html" class="nav-logo">
+                <img src="photos/logo.png" alt="Accueil">
+            </a>
+            <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Ouvrir le menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="nav" id="primary-nav">
                 <div class="nav-up">
                     <a href="contact.html">Nous joindre</a>
                     <a href="faq.html">FAQ</a>
@@ -89,8 +94,8 @@
                 <div class="hero-text">
                     <h1>Au CSP Le Challenge,</h1>
                     <h2>nous formons les leaders de demain.</h2>
-                    <blockquote class="hero-quote typed-text">
-                        « L'éducation est l'arme la plus puissante pour changer le monde. » 
+                    <blockquote class="hero-quote">
+                        <span class="typed-text">« L'éducation est l'arme la plus puissante pour changer le monde. »</span>
                     </blockquote>
                     <div class="cta-button2">
                         <a href="inscription.html">Inscrivez-vous dès maintenant</a>
