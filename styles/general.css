@@ -131,7 +131,7 @@ section p {
 #navbar a, #navbar .dropbtn {
     text-decoration: none;
     color: #f2f2f2;
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     padding: 1rem 1.5rem;
     font-weight: 600;
     text-align: left;
@@ -229,7 +229,7 @@ section p {
 }
 
 #navbar.shrink a, #navbar.shrink .dropbtn {
-    font-size: 1.2rem;
+    font-size: 1rem;
     transition: font-size 0.3s ease;
 }
 
@@ -323,7 +323,7 @@ footer .icon  {
 
 .footer-left {
     display: flex;
-    align-items: flex-start; 
+    justify-content: space-around; 
     flex: 1 1 300px;
     gap: 1.25rem;
 }
@@ -341,11 +341,7 @@ footer .icon  {
     flex-wrap: wrap;
     gap: 2rem;
     flex: 2 1 500px;
-    align-items: flex-start;
-}
-
-.footer-right-col {
-    min-width: 200px;
+    justify-content: space-between;
 }
 
 .footer-right ul {
@@ -385,4 +381,79 @@ footer .icon  {
 .reveal.show {
     opacity: 1;
     transform: none;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) and (min-width: 769px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    body p, body li, body a, body textarea, body input, body button, body label, body blockquote {
+        font-size: 1.1rem;
+    }
+
+    .cta-button1, .cta-button2, .cta-button3 {
+        width: 50%;
+    }
+
+    section {
+        width: 90%;
+        padding: 1rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    body p, body li, body a, body textarea, body input, body button, body label, body blockquote {
+        font-size: 1rem;
+    }
+
+    #navbar {
+        flex-direction: column;
+    }
+
+    .dropdown-content {
+        position: static;
+    }
+
+    .cta-section {
+        min-height: 180px;
+    }
+
+    .footer-up {
+        flex-direction: column;
+    }
+
+    .footer-right {
+        flex-direction: column;
+    }
 }

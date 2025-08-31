@@ -42,7 +42,7 @@ h2 {
 }
 
 /* Formulaires Section */
-a {
+#formulaires a {
     font-size: 1.2rem;
     color: #a33838;
     text-decoration: none;
