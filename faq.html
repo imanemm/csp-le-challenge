@@ -71,9 +71,9 @@
             </div>
         </div>
     </div>
-    <section id="faq">
+    <section id="faq" class="reveal">
         <h3>FAQ</h3>
-        <h2 class="red"><i class="fa-solid fa-circle-chevron-right"></i>Questions fréquentes</h2>
+        <h2 class="red"><i class="fa-solid fa-circle-chevron-right"></i> Questions fréquentes</h2>
         <div class="faq-list">
             <div class="faq-item">
                 <div class="faq-question">
@@ -203,5 +203,15 @@
             <p>© 2025 CSP Le Challenge — Tous droits réservés</p>
         </div>
     </footer>
+    <script src="script.js"></script>
+    <script>
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', () => {
+                item.classList.toggle('active');
+            });
+        });
+    </script>
 </body>
 </html>

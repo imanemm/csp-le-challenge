@@ -6,10 +6,10 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 6rem; /* Adjust this value to match your navbar height */
+    scroll-padding-top: 6rem; 
 }
 
-body p, body li, body a {
+body p, body li, body a, body textarea, body input, body button, body label {
     font-family: "Inter", sans-serif;
 }
 
@@ -113,7 +113,7 @@ section p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 120px;
+    height: 160px;
     width: 100%;
     align-items: center;
     background-color: #a33838;
@@ -121,8 +121,8 @@ section p {
 }
 
 #navbar img {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     object-fit: contain;
     padding: 0;
     margin: 0;
@@ -131,7 +131,7 @@ section p {
 #navbar a, #navbar .dropbtn {
     text-decoration: none;
     color: #f2f2f2;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     padding: 1rem 1.5rem;
     font-weight: 600;
     text-align: left;
@@ -173,11 +173,12 @@ section p {
 
 .dropdown .dropbtn {
     display: inline-block;
-    padding: .6rem 1rem;
+    padding: 2rem 1rem;
+    min-width: 220px;
 }
 
-.dropbtn:hover, .dropbtn:focus-visible{
-    text-decoration: underline;
+.dropdown:hover .dropdown-content, .dropdown:focus-visible .dropdown-content{
+    border-top: #f2f2f2 2px solid;
 }
 
 .dropdown-content {
@@ -216,6 +217,23 @@ section p {
     float: none; 
 }
 
+/* Shrink navbar on scroll */
+#navbar.shrink {
+    height: 120px;
+    transition: height 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#navbar.shrink img {
+    width: 110px;
+    height: 110px;
+    transition: height 0.3s ease;
+}
+
+#navbar.shrink a, #navbar.shrink .dropbtn {
+    font-size: 1.2rem;
+    transition: font-size 0.3s ease;
+}
 
 /* Footer */
 .cta-section {
@@ -357,4 +375,16 @@ footer .icon  {
     text-align: center;
     padding: 1rem 0;
     border-top:1px solid rgba(242,242,242,.4);
+}
+
+/* Animations */
+.reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1000ms;
+}
+
+.reveal.show {
+    opacity: 1;
+    transform: none;
 }
