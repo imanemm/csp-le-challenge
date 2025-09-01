@@ -161,3 +161,56 @@ button:hover {
     height: 100%;
     border: none;
 }
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    section {
+        width: 90%;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form, .contact-info {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .contact-social-icons {
+        width: 80%;
+    }
+
+    .map-container {
+        width: 100%;
+        height: 300px;
+    }
+
+    .map-container {
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        width: 95%;
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    .contact-form, .contact-info {
+        width: 100%;
+    }
+
+
+    .contact-social-icons {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-social .fa-linkedin, .contact-social .fa-facebook {
+        font-size: 3rem;
+    }
+}

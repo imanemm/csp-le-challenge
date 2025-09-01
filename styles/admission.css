@@ -48,3 +48,36 @@ h2 {
     text-decoration: none;
     margin-left: 2rem;
 }
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    section {
+        width: 90%;
+    }
+
+    .processus-wrapper, .test-wrapper {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .processus-wrapper img, .test-wrapper img {
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .processus-text, .test-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    #formulaires a {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        width: 95%;
+        padding: 1rem;
+    }
+}

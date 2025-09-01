@@ -104,3 +104,20 @@ h2 {
 .faq-item.active .faq-icon {
     color: #fff;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    .faq-question h4 {
+        font-size: 1rem;
+    }
+
+    .faq-list {
+        padding: 1rem;
+        width: 100%;
+    }
+}

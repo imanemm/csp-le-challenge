@@ -129,3 +129,70 @@ h2 {
     height: auto;
     object-fit: contain;
 }
+
+@media (max-width: 1024px) {
+    section {
+        width: 90%;
+    }
+
+    .innovations-image-container {
+        height: 70vh;
+        width: 100%;
+    }
+
+    .swiper {
+        width: 100%;
+        height: auto;
+        margin: auto 0;
+    }
+
+    .innovations-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .innovation-item {
+        width: 80%;
+    }
+
+    .partenariats-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .partenariat-item {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    .innovations-image-container {
+        height: 50vh;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: none;
+    }
+
+    .innovation-item {
+        padding: 2rem;
+    }
+
+    .innovation-top {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .innovations-wrapper .fa-solid, .innovations-wrapper .fa-brands {
+        font-size: 3rem;
+    }
+
+    .partenariat-item {
+        width: 100%;
+    }
+}

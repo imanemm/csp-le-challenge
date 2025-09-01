@@ -88,3 +88,35 @@ tr:hover {
     height: auto;
     margin: 1rem auto;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    ul {
+        padding: 1rem 0;
+    }
+
+    #horaire img, #uniformes img {
+        width: 100%;
+    }
+
+    table, th, td {
+        font-size: 0.9rem;
+    }
+
+    th, td {
+        padding: 0.5rem;
+    }
+
+    td:first-child {
+        font-weight: 500;
+    }
+
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+}

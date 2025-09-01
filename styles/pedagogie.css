@@ -94,3 +94,40 @@ h2 {
 .cta-button1 {
     margin: 3rem auto;
 }
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .approche-wrapper {
+        flex-direction: column;
+        height: auto;
+    }
+    .approche-item {
+        width: 100%;
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+    .niveaux-item1, .niveaux-item2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .niveaux-item1 img, .niveaux-item2 img, .niveaux-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+        padding: 1rem;
+    }
+    
+    .approche-item .fa-solid {
+        font-size: 2rem;
+        padding: 2rem;
+    }
+    .cta-button1 {
+        width: 100%;
+        margin: 2rem auto;
+    }
+}

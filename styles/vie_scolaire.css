@@ -108,3 +108,34 @@ h2 {
     width: 50%;
     border : 5px solid #a33838;
 }
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .evenements-wrapper, .activites-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .evenement, .activite {
+        width: 90%;
+    }
+
+    .service {
+        flex-direction: column;
+    }
+
+    .service img {
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+        padding: 1rem;
+    }
+
+    .evenement, .activite {
+        width: 100%;
+    }
+}
