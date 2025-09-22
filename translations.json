@@ -1,0 +1,76 @@
+{
+    "fr" : {
+        "general": {
+            "navbar" : {
+
+            }, 
+            "footer" : {
+
+            }
+        },
+        "index" : {
+        
+        },
+        "admission" : {
+
+        },
+        "contact": {
+
+        },
+        "etablissement" : {
+
+        }, 
+        "faq" : {
+
+        }, 
+        "info_parents" : {
+
+        }, 
+        "innovations" : {
+
+        },
+        "pedagogie" : {
+
+        }, 
+        "vie_scolaire" : {
+
+        }
+    },
+    "en": {
+        "general": {
+            "navbar" : {
+
+            }, 
+            "footer" : {
+                
+            }
+        },
+        "index" : {
+        
+        },
+        "admission" : {
+
+        },
+        "contact": {
+
+        },
+        "etablissement" : {
+
+        }, 
+        "faq" : {
+
+        }, 
+        "info_parents" : {
+
+        }, 
+        "innovations" : {
+
+        },
+        "pedagogie" : {
+
+        }, 
+        "vie_scolaire" : {
+            
+        }
+    }
+}

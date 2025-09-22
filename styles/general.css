@@ -215,6 +215,30 @@ section p {
     float: none; 
 }
 
+.sidebar-lang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-lang button {
+    background: none;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 1.25rem;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    font-weight: 600;
+    height: 100%;
+}
+
+.sidebar-lang button:hover, .nav-up a:hover {
+    border-bottom: 2px solid #f2f2f2;
+}
+
 /* Shrink navbar on scroll */
 #navbar.shrink {
     height: 120px;
@@ -228,7 +252,7 @@ section p {
     transition: height 0.3s ease;
 }
 
-#navbar.shrink a, #navbar.shrink .dropbtn {
+#navbar.shrink a, #navbar.shrink .dropbtn, #navbar.shrink .sidebar-lang button {
     font-size: 1rem;
     transition: font-size 0.3s ease;
 }

@@ -13,6 +13,15 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <link rel="stylesheet" href="styles/general.css">
         <link rel="stylesheet" href="styles/accueil.css">
+
+        <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+
+        <link rel="icon" href="favicon_io/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" href="favicon_io/favicon-16x16.png" sizes="16x16">
+
+        <link rel="apple-touch-icon" href="favicon_io/apple-touch-icon.png">
+        <link rel="icon" sizes="192x192" href="favicon_io/android-chrome-192x192.png">
+        <link rel="icon" sizes="512x512" href="favicon_io/android-chrome-512x512.png">
     </head>
     <body>
         <div id="navbar">
@@ -24,54 +33,57 @@
             </button>
             <div class="nav" id="primary-nav">
                 <div class="nav-up">
-                    <a href="contact.html">Nous joindre</a>
-                    <a href="faq.html">FAQ</a>
+                    <a href="contact.html" data-key="nav-contact" data-section="navbar">Nous joindre</a>
+                    <a href="faq.html" data-key="nav-faq" data-section="navbar">FAQ</a>
+                    <div class="sidebar-lang">
+                        <button id="langToggle" aria-label="Changer la langue">EN</button>
+                    </div>
                 </div>
                 <div class="nav-down">
                     <div class="dropdown" id="etablissement-navbar">
-                        <a class="dropbtn" href="etablissement.html">Établissement</a>
+                        <a class="dropbtn" href="etablissement.html" data-key="nav-etablissement" data-section="navbar">Établissement</a>
                         <div class="dropdown-content" role="menu" aria-label="Sous-menu Établissement">
-                            <a href="etablissement.html#histoire" role="menuitem">Histoire</a>
-                            <a href="etablissement.html#mission" role="menuitem">Mission et Vision</a>
-                            <a href="etablissement.html#nouvelles" role="menuitem">Nouvelles</a>
+                            <a href="etablissement.html#histoire" role="menuitem" data-key="nav-etablissement-histoire" data-section="navbar">Histoire</a>
+                            <a href="etablissement.html#mission" role="menuitem" data-key="nav-etablissement-mission" data-section="navbar">Mission et Vision</a>
+                            <a href="etablissement.html#nouvelles" role="menuitem" data-key="nav-etablissement-nouvelles" data-section="navbar">Nouvelles</a>
                         </div>
                     </div>
                     <div class="dropdown" id="pedagogie-navbar">
-                        <a class="dropbtn" href="pedagogie.html">Pédagogie</a>
+                        <a class="dropbtn" href="pedagogie.html" data-key="nav-pedagogie" data-section="navbar">Pédagogie</a>
                         <div class="dropdown-content" role="menu" aria-label="Sous-menu Pédagogie">
-                            <a href="pedagogie.html#approche" role="menuitem">Approche pédagogie</a>
-                            <a href="pedagogie.html#niveaux" role="menuitem">Niveaux scolaires</a>
+                            <a href="pedagogie.html#approche" role="menuitem" data-key="nav-pedagogie-approche" data-section="navbar">Approche pédagogie</a>
+                            <a href="pedagogie.html#niveaux" role="menuitem" data-key="nav-pedagogie-niveaux" data-section="navbar">Niveaux scolaires</a>
                         </div>
                     </div>
                     <div class="dropdown" id="vie-navbar">
-                        <a class="dropbtn" href="vie_scolaire.html">Vie scolaire</a>
+                        <a class="dropbtn" href="vie_scolaire.html" data-key="nav-vie-scolaire" data-section="navbar">Vie scolaire</a>
                         <div class="dropdown-content" role="menu" aria-label="Sous-menu Vie scolaire">
-                            <a href="vie_scolaire.html#evenements" role="menuitem">Évènements</a>
-                            <a href="vie_scolaire.html#activites" role="menuitem">Activités et clubs</a>
-                            <a href="vie_scolaire.html#services" role="menuitem">Services</a>
+                            <a href="vie_scolaire.html#evenements" role="menuitem" data-key="nav-vie-scolaire-evenements" data-section="navbar">Évènements</a>
+                            <a href="vie_scolaire.html#activites" role="menuitem" data-key="nav-vie-scolaire-activites" data-section="navbar">Activités et clubs</a>
+                            <a href="vie_scolaire.html#services" role="menuitem" data-key="nav-vie-scolaire-services" data-section="navbar">Services</a>
                         </div>
                     </div>
                     <div class="dropdown" id="inscription-navbar">
-                        <a class="dropbtn" href="admission.html">Inscription</a>
+                        <a class="dropbtn" href="admission.html" data-key="nav-inscription" data-section="navbar">Inscription</a>
                         <div class="dropdown-content" role="menu" aria-label="Sous-menu Inscription">
-                            <a href="admission.html#processus" role="menuitem">Processus d'admission</a>
-                            <a href="admission.html#test" role="menuitem">Test d'admission</a>
-                            <a href="admission.html#formulaires" role="menuitem">Formulaires</a>
+                            <a href="admission.html#processus" role="menuitem" data-key="nav-inscription-processus" data-section="navbar">Processus d'admission</a>
+                            <a href="admission.html#test" role="menuitem" data-key="nav-inscription-test" data-section="navbar">Test d'admission</a>
+                            <a href="admission.html#formulaires" role="menuitem" data-key="nav-inscription-formulaires" data-section="navbar">Formulaires</a>
                         </div>
                     </div>
                     <div class="dropdown" id="innovation-navbar">
-                        <a class="dropbtn" href="innovations.html">Innovations</a>
+                        <a class="dropbtn" href="innovations.html" data-key="nav-innovations" data-section="navbar">Innovations</a>
                         <div class="dropdown-content" role="menu" aria-label="Sous-menu Innovations">
-                            <a href="innovations.html#projets" role="menuitem">Projets</a>
-                            <a href="innovations.html#partenariats" role="menuitem">Partenariats</a>
+                            <a href="innovations.html#projets" role="menuitem" data-key="nav-innovations-projets" data-section="navbar">Projets</a>
+                            <a href="innovations.html#partenariats" role="menuitem" data-key="nav-innovations-partenariats" data-section="navbar">Partenariats</a>
                         </div>
                     </div>
                     <div class="dropdown" id="info-navbar">
-                        <a class="dropbtn" href="info_parents.html">Info-Parents</a>
+                        <a class="dropbtn" href="info_parents.html" data-key="nav-info-parents" data-section="navbar">Info-Parents</a>
                         <div class="dropdown-content" role="menu" aria-label="Sous-menu Info-Parents">
-                            <a href="info_parents.html#horaire" role="menuitem">Horaire-type</a>
-                            <a href="info_parents.html#frais" role="menuitem">Frais de scolarité</a>
-                            <a href="info_parents.html#uniformes" role="menuitem">Uniformes</a>
+                            <a href="info_parents.html#horaire" role="menuitem" data-key="nav-info-parents-horaire" data-section="navbar">Horaire-type</a>
+                            <a href="info_parents.html#frais" role="menuitem" data-key="nav-info-parents-frais" data-section="navbar">Frais de scolarité</a>
+                            <a href="info_parents.html#uniformes" role="menuitem" data-key="nav-info-parents-uniformes" data-section="navbar">Uniformes</a>
                         </div>
                     </div>
                 </div>
@@ -92,13 +104,13 @@
             </div>
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Au CSP Le Challenge,</h1>
-                    <h2>nous formons les leaders de demain.</h2>
+                    <h1 data-key="hero-title" data-section="index">Au CSP Le Challenge,</h1>
+                    <h2 data-key="hero-subtitle" data-section="index">nous formons les leaders de demain.</h2>
                     <blockquote class="hero-quote">
-                        <span class="typed-text">« L'éducation est l'arme la plus puissante pour changer le monde. »</span>
+                        <span class="typed-text" id="typed-text" data-key="hero-quote" data-section="index"></span>
                     </blockquote>
                     <div class="cta-button2">
-                        <a href="inscription.html">Inscrivez-vous dès maintenant</a>
+                        <a href="inscription.html" data-key="hero-cta" data-section="index">Inscrivez-vous dès maintenant</a>
                     </div>
                 </div>
             </div>
@@ -108,22 +120,22 @@
                 <div class="nav-card">
                     <a href="pedagogie.html">
                         <i class="fa-solid fa-school"></i>
-                        <h3>Programme</h3>
-                        <p>Découvrez notre approche pédagogique innovante et nos niveaux scolaires adaptés.</p>
+                        <h3 data-key="index-nav-pedagogie" data-section="index">Programme</h3>
+                        <p data-key="index-nav-pedagogie-description" data-section="index">Découvrez notre approche pédagogique innovante et nos niveaux scolaires adaptés.</p>
                     </a>
                 </div>
                 <div class="nav-card">
                     <a href="vie_scolaire.html">
                         <i class="fa-solid fa-users"></i>
-                        <h3>Vie scolaire</h3>
-                        <p>Explorez les activités, clubs et services qui enrichissent la vie de nos élèves.</p>
+                        <h3 data-key="index-nav-vie-scolaire" data-section="index">Vie scolaire</h3>
+                        <p data-key="index-nav-vie-scolaire-description" data-section="index">Explorez les activités, clubs et services qui enrichissent la vie de nos élèves.</p>
                     </a>
                 </div>
                 <div class="nav-card">
                     <a href="histoire.html">
                         <i class="fa-solid fa-book"></i>
-                        <h3>Histoire</h3>
-                        <p>Apprenez-en plus sur l'histoire et les valeurs fondamentales de notre établissement.</p>
+                        <h3 data-key="index-nav-histoire" data-section="index">Histoire</h3>
+                        <p data-key="index-nav-histoire-description" data-section="index">Apprenez-en plus sur l'histoire et les valeurs fondamentales de notre établissement.</p>
                     </a>
                 </div>
             </div>
@@ -134,71 +146,71 @@
                     <img src="photos/accueil.JPG" alt="Mission">
                 </figure>
                 <div class="mission-text">
-                    <h2>Notre mission</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere maiores et soluta corporis aliquam laborum, modi reprehenderit tempore cumque provident quod vero voluptatibus deleniti dignissimos animi velit sapiente fuga voluptates.</p>
+                    <h2 data-key="mission-title" data-section="index">Notre mission</h2>
+                    <p data-key="mission-description" data-section="index">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere maiores et soluta corporis aliquam laborum, modi reprehenderit tempore cumque provident quod vero voluptatibus deleniti dignissimos animi velit sapiente fuga voluptates.</p>
                     <div class="cta-button3">
-                        <a href="etablissement/mission.html">Découvrer plus</a>
+                        <a href="etablissement/mission.html" data-key="mission-cta" data-section="index">Découvrer plus</a>
                     </div>
                 </div>
             </div>
         </section>
         <section id="vision" class="reveal">
-            <h2 class="vision-title">Notre vision</h2>
+            <h2 class="vision-title" data-key="vision-title" data-section="index">Notre vision</h2>
             <div class="valeur-wrapper">
                 <div class="valeur-item">
                     <img src="photos/accueil.JPG" alt="Valeur 1">
                     <div class="valeur-overlay"></div>
                     <div class="valeur-content">
-                        <h3>Valeur</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, voluptas.</p>
+                        <h3 data-key="vision-valeur-1" data-section="index">Valeur</h3>
+                        <p data-key="vision-valeur-1-description" data-section="index">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, voluptas.</p>
                     </div>
                 </div>
                 <div class="valeur-item">
                     <img src="photos/accueil.JPG" alt="Valeur 1">
                     <div class="valeur-overlay"></div>
                     <div class="valeur-content">
-                        <h3>Valeur</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, voluptas.</p>
+                        <h3 data-key="vision-valeur-2" data-section="index">Valeur</h3>
+                        <p data-key="vision-valeur-2-description" data-section="index">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, voluptas.</p>
                     </div>
                 </div>
                 <div class="valeur-item">
                     <img src="photos/accueil.JPG" alt="Valeur 1">
                     <div class="valeur-overlay"></div>
                     <div class="valeur-content">
-                        <h3>Valeur</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, voluptas.</p>
+                        <h3 data-key="vision-valeur-3" data-section="index">Valeur</h3>
+                        <p data-key="vision-valeur-3-description" data-section="index">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, voluptas.</p>
                     </div>
                 </div>
             </div>
             <div class="cta-button2">
-                <a href="etablissement.html">Apprennez plus</a>
+                <a href="etablissement.html" data-key="vision-cta" data-section="index">Apprennez plus</a>
             </div>
         </section>
         <section id="actualites" class="reveal">
-            <h2>Actualités</h2>
+            <h2 data-key="actualites-title" data-section="index">Actualités</h2>
             <div class="actualites-wrapper">
                 <div class="actualite-card">
                     <img src="photos/accueil.JPG" alt="Actualité 1">
                     <div class="actualite-content">
-                        <h3>Titre de l'actualité 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.</p>
-                        <a href="etablissement.html#nouvelles" class="read-more">Lire la suite</a>
+                        <h3 data-key="actualites-1-title" data-section="index">Titre de l'actualité 1</h3>
+                        <p data-key="actualites-1-description" data-section="index">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.</p>
+                        <a href="etablissement.html#nouvelles" class="read-more" data-key="actualites-1-cta" data-section="index">Lire la suite</a>
                     </div>
                 </div>
                 <div class="actualite-card">
                     <img src="photos/accueil.JPG" alt="Actualité 2">
                     <div class="actualite-content">
-                        <h3>Titre de l'actualité 2</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.</p>
-                        <a href="etablissement.html#nouvelles" class="read-more">Lire la suite</a>
+                        <h3 data-key="actualites-2-title" data-section="index">Titre de l'actualité 2</h3>
+                        <p data-key="actualites-2-description" data-section="index">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.</p>
+                        <a href="etablissement.html#nouvelles" class="read-more" data-key="actualites-2-cta" data-section="index">Lire la suite</a>
                     </div>
                 </div>
                 <div class="actualite-card">
                     <img src="photos/accueil.JPG" alt="Actualité 3">
                     <div class="actualite-content">
-                        <h3>Titre de l'actualité 3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.</p>
-                        <a href="etablissement.html#nouvelles" class="read-more">Lire la suite</a>
+                        <h3 data-key="actualites-3-title" data-section="index">Titre de l'actualité 3</h3>
+                        <p data-key="actualites-3-description" data-section="index">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.</p>
+                        <a href="etablissement.html#nouvelles" class="read-more" data-key="actualites-3-cta" data-section="index">Lire la suite</a>
                     </div>
                 </div>
             </div>
@@ -215,7 +227,7 @@
                         <a href="tel:+22798850400">+227 98 85 04 00</a></p>
                         <p><i class="fa-brands fa-whatsapp icon"></i>
                         <a href="https://wa.me/22383534916" target="_blank" rel="noopener">+223 83 53 49 16</a></p>
-                        <p>
+                        <p data-key="footer-address" data-section="footer">
                             <i class="fa-solid fa-location-dot icon"></i>
                             Aéroport, collée à la clinique Djoliba
                         </p>
@@ -226,32 +238,32 @@
                 <nav class="footer-right" aria-label="Liens utiles">
                     <div class="footer-right-col">
                         <ul>
-                        <li><a href="etablissement.html#nouvelles">Nouvelles</a></li>
-                        <li><a href="info-parents.html">Info-Parents</a></li>
-                        <li><a href="info-parents.html#frais">Frais de scolarité</a></li>
-                        <li><a href="info-parents.html#horaire">Horaire</a></li>
+                        <li><a href="etablissement.html#nouvelles" data-key="footer-nouvelles" data-section="footer">Nouvelles</a></li>
+                        <li><a href="info-parents.html" data-key="footer-info-parents" data-section="footer">Info-Parents</a></li>
+                        <li><a href="info-parents.html#frais" data-key="footer-frais" data-section="footer">Frais de scolarité</a></li>
+                        <li><a href="info-parents.html#horaire" data-key="footer-horaire" data-section="footer">Horaire</a></li>
                         </ul>
                     </div>
                     <div class="footer-right-col">
                         <ul>
-                        <li><a href="pedagogie.html#niveaux">Niveaux scolaires</a></li>
-                        <li><a href="pedagogie.html#approche">Approche pédagogique</a></li>
-                        <li><a href="admission.html#processus">Admission</a></li>
-                        <li><a href="admission.html#formulaires">Formulaires</a></li>
+                        <li><a href="pedagogie.html#niveaux" data-key="footer-niveaux" data-section="footer">Niveaux scolaires</a></li>
+                        <li><a href="pedagogie.html#approche" data-key="footer-approche" data-section="footer">Approche pédagogique</a></li>
+                        <li><a href="admission.html#processus" data-key="footer-processus" data-section="footer">Admission</a></li>
+                        <li><a href="admission.html#formulaires" data-key="footer-formulaires" data-section="footer">Formulaires</a></li>
                         </ul>
                     </div>
                     <div class="footer-right-col">
                         <ul>
-                        <li><a href="vie-scolaire.html">Vie à l'école</a></li>
-                        <li><a href="vie-scolaire.html#evenements">Évènements</a></li>
-                        <li><a href="innovations.html#partenariats">Partenariats</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="vie-scolaire.html" data-key="footer-vie-scolaire" data-section="footer">Vie à l'école</a></li>
+                        <li><a href="vie-scolaire.html#evenements" data-key="footer-evenements" data-section="footer">Évènements</a></li>
+                        <li><a href="innovations.html#partenariats" data-key="footer-partenariats" data-section="footer">Partenariats</a></li>
+                        <li><a href="faq.html" data-key="footer-faq" data-section="footer">FAQ</a></li>
                         </ul>
                     </div>
                     <div class="footer-right-col">
                         <ul>
-                        <li><a href="innovations.html#projets">Nos projets</a></li>
-                        <li><a href="contact.html">Nous joindre</a></li>
+                        <li><a href="innovations.html#projets" data-key="footer-projets" data-section="footer">Nos projets</a></li>
+                        <li><a href="contact.html" data-key="footer-contact" data-section="footer">Nous joindre</a></li>
                         </ul>
                         <div class="footer-media">
                         <a href="https://www.facebook.com/profile.php?id=61568256483342" target="_blank" rel="noopener" aria-label="Facebook">
@@ -263,7 +275,7 @@
                 </nav>
             </div>
             <div class="footer-down">
-                <p>© 2025 CSP Le Challenge — Tous droits réservés</p>
+                <p data-key="footer-copyright" data-section="footer">© 2025 CSP Le Challenge — Tous droits réservés</p>
             </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
