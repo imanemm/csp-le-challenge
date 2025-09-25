@@ -233,7 +233,6 @@ header h2 {
     display: flex; 
     flex-direction: column;
     justify-content: center;
-    gap: 1.5rem;
     box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
 }
 
@@ -464,6 +463,29 @@ header h2 {
     }
 }
 
+/* Équipe Section */
+#equipe {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#equipe h3, #equipe h4 {
+    margin: 1rem 0;
+}
+
+.equipe-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#equipe img {
+    width: 48%;
+}
+
 @media (max-width: 900px) {
     header {
         height: calc(100vh - 150px);
@@ -511,11 +533,23 @@ header h2 {
 
     .valeur-item {
         flex: 1 1 50%;
-        max-width: 50%;
+        max-width: 80%;
     }
 
     .actualite-card {
         flex: 1 1 80%;
         max-width: 80%;
+    }
+
+    .equipe-images {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #equipe img {
+        width: 100%;
+        margin: 1rem 0;
     }
 }

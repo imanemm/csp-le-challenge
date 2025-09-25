@@ -19,6 +19,27 @@ h2 {
     color: #a33838;
 }
 
+ul {
+    margin-left: 1.5rem;
+    list-style-type: disc;
+}
+
+ol li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+ol {
+    margin-left: 1.5rem;
+}
+
 /* Processus Section */
 .processus-wrapper, .test-wrapper {
     display: flex;
